@@ -11,6 +11,7 @@ html {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    margin-left: 100px;
 }
 
 .header-logo {
@@ -23,6 +24,10 @@ html {
 .hero-secondary, .header-links {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.hero-secondary {
+    margin-left: 100px;
 }
 
 ul {
@@ -53,7 +58,6 @@ ul {
 .hero-container {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
     margin-right: 32px;
     gap: 8px;
 }
