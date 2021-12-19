@@ -4,16 +4,66 @@ html {
 
 .top-section {
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
-.main-title {
-
-}
-
-.hero-main, .header-logo {
+.hero-main {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 18px 0px 100px 100px;
 }
 
 .hero-secondary, .header-links {
     color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 16px;
+    margin: 18px 118px 100px 0px;
+}
+
+.container {
+    display: flex;
+    margin-right: 118px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 32px;
+    gap: 8px;
+}
+
+button {
+    padding: 8px 24px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
