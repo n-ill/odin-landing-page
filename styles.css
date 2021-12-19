@@ -1,0 +1,19 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-section {
+    background-color: #1F2937;
+}
+
+.main-title {
+
+}
+
+.hero-main, .header-logo {
+    color: #F9FAF8;
+}
+
+.hero-secondary, .header-links {
+    color: #E5E7EB;
+}
